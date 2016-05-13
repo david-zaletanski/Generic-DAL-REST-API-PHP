@@ -1,0 +1,44 @@
+Trackmini:
+  The purpose of this project is to learn how to make iPhones apps integrate with a MySQL database on a remote server. It is a basically a chopped down version of the trackula.me
+
+  Design:
+    Create a MySQL database where a user stores information about items that they have bought or consumed. An iPhone app interacts with the MySQL database via PHP web services, and is used to gather from the user and display it back.
+
+  Initial Steps:
+    ✔ Follow a brief tutorial on how to use JSON in PHP/Swift. @created(15-04-21 00:01)  @done (15-04-21 01:08)
+
+  Implementation:
+
+    ✔ Design the database model and create it on the trackula.me MySQL server. @created(15-04-21 02:06) @done (15-04-21 02:32)
+    ☐ Create PHP web services with methods to interface with the database. @created(15-04-22 02:12)
+    ☐ Validate the following conditions, especially when testing.
+      ☐ The exact required parameters are passed in via POST.
+      ☐ The parameters are the right type and don't exceed their maximum value in the database.
+      Item Service:
+        Performs operations that relate to creating, updating, and removing items.
+        ☐ AddItem(name,manufacturer,description,quantity,measure) @id
+          AddItem(name,description,quantity,measure)
+        ☐ GetItem(id) @array
+        ☐ UpdateItem(id,name,manufacturer,description,quantity,measure) @void
+        ☐ RemoveItem(id) @void
+      User Service:
+        Operations that relate to the user's information and recording information about what items they have purchased and consumed.
+        ☐ AuthenticateUser(username,password) @id
+          In the future would send encryped data to and from and probably return a hashed authentication token.
+          DeauthenticateUser(id) @void
+        ☐ PurchaseItem(item id, user id, time, quantity, price) @id
+        ☐ GetPurchasedItem(item id) @purchased item
+        ☐ GetPurchasedItems(user id) @array purchased item
+        ☐ RemovePurchaseItem(item id) @void
+        ☐ ConsumeItem(item id, user id, time, quantity) @consumeditm
+        ☐ GetConsumedItem(item id) @consumed item
+        ☐ GetConsumedItems(item id) @array consumed item
+        ☐ RemoveConsumeItem(item id) 
+
+
+
+
+
+
+
+

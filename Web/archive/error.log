@@ -1,0 +1,65 @@
+[Sun Apr 26 06:46:48.240171 2015] [mpm_prefork:notice] [pid 17226] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Sun Apr 26 06:46:48.240237 2015] [core:notice] [pid 17226] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Apr 26 09:47:55.102106 2015] [core:error] [pid 23001] [client 67.188.118.165:58611] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Apr 27 01:12:09.254488 2015] [core:error] [pid 18291] [client 195.22.104.168:45626] AH00126: Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Apr 27 21:38:46.673152 2015] [:error] [pid 23001] [client 192.187.110.98:60088] script '/var/www/html/testproxy.php' not found or unable to stat
+[Tue Apr 28 00:05:59.257487 2015] [mpm_prefork:notice] [pid 17226] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 00:06:00.394705 2015] [mpm_prefork:notice] [pid 18656] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 00:06:00.394947 2015] [core:notice] [pid 18656] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 00:08:26.256734 2015] [mpm_prefork:notice] [pid 18656] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 00:08:27.252830 2015] [mpm_prefork:notice] [pid 18723] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 00:08:27.252903 2015] [core:notice] [pid 18723] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 00:23:48.525135 2015] [mpm_prefork:notice] [pid 18723] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 00:23:49.620583 2015] [mpm_prefork:notice] [pid 18835] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 00:23:49.620711 2015] [core:notice] [pid 18835] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 00:29:11.180590 2015] [mpm_prefork:notice] [pid 18835] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 00:29:12.190295 2015] [mpm_prefork:notice] [pid 18915] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 00:29:12.190384 2015] [core:notice] [pid 18915] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 00:38:41.888791 2015] [mpm_prefork:notice] [pid 18915] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 00:38:42.997959 2015] [mpm_prefork:notice] [pid 19013] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 00:38:42.998086 2015] [core:notice] [pid 19013] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 00:55:38.673407 2015] [mpm_prefork:notice] [pid 19013] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 00:55:39.692555 2015] [mpm_prefork:notice] [pid 19228] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 00:55:39.692631 2015] [core:notice] [pid 19228] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 00:58:48.148625 2015] [mpm_prefork:notice] [pid 19228] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 00:58:49.298940 2015] [mpm_prefork:notice] [pid 19334] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 00:58:49.299135 2015] [core:notice] [pid 19334] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 01:17:30.915806 2015] [mpm_prefork:notice] [pid 19334] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 01:17:31.649386 2015] [mpm_prefork:notice] [pid 19476] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 01:17:31.649478 2015] [core:notice] [pid 19476] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 01:18:17.786795 2015] [:error] [pid 19480] [client 75.25.61.30:49547] PHP Warning:  require_once(/var/www/html/trackmini/api/v1/API.class.php): failed to open stream: Permission denied in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:18:17.786854 2015] [:error] [pid 19480] [client 75.25.61.30:49547] PHP Fatal error:  require_once(): Failed opening required 'API.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:18:24.886661 2015] [:error] [pid 19491] [client 75.25.61.30:49555] PHP Warning:  require_once(/var/www/html/trackmini/api/v1/API.class.php): failed to open stream: Permission denied in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:18:24.886786 2015] [:error] [pid 19491] [client 75.25.61.30:49555] PHP Fatal error:  require_once(): Failed opening required 'API.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:18:30.161306 2015] [:error] [pid 19482] [client 75.25.61.30:49562] PHP Warning:  require_once(/var/www/html/trackmini/api/v1/API.class.php): failed to open stream: Permission denied in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:18:30.161362 2015] [:error] [pid 19482] [client 75.25.61.30:49562] PHP Fatal error:  require_once(): Failed opening required 'API.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:18:32.257558 2015] [:error] [pid 19492] [client 75.25.61.30:49564] PHP Warning:  require_once(/var/www/html/trackmini/api/v1/API.class.php): failed to open stream: Permission denied in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:18:32.257679 2015] [:error] [pid 19492] [client 75.25.61.30:49564] PHP Fatal error:  require_once(): Failed opening required 'API.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:19:11.505707 2015] [:error] [pid 19481] [client 75.25.61.30:49575] PHP Warning:  require_once(/var/www/html/trackmini/api/v1/API.class.php): failed to open stream: Permission denied in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:19:11.505791 2015] [:error] [pid 19481] [client 75.25.61.30:49575] PHP Fatal error:  require_once(): Failed opening required 'API.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:19:14.011902 2015] [:error] [pid 19484] [client 75.25.61.30:49584] PHP Warning:  require_once(/var/www/html/trackmini/api/v1/API.class.php): failed to open stream: Permission denied in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:19:14.011954 2015] [:error] [pid 19484] [client 75.25.61.30:49584] PHP Fatal error:  require_once(): Failed opening required 'API.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/html/trackmini/api/v1/MyAPI.class.php on line 12
+[Tue Apr 28 01:27:59.861693 2015] [:error] [pid 19480] [client 75.25.61.30:49712] script '/var/www/html/trackmini/info.php' not found or unable to stat
+[Tue Apr 28 01:28:03.692287 2015] [:error] [pid 19483] [client 75.25.61.30:49719] script '/var/www/html/trackmini/info.php' not found or unable to stat
+[Tue Apr 28 01:28:07.394802 2015] [:error] [pid 19491] [client 75.25.61.30:49721] script '/var/www/html/trackmini/phpinfo.php' not found or unable to stat
+[Tue Apr 28 01:39:49.608848 2015] [mpm_prefork:notice] [pid 19476] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 01:39:50.716809 2015] [mpm_prefork:notice] [pid 19619] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 01:39:50.716953 2015] [core:notice] [pid 19619] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 01:40:42.448966 2015] [:error] [pid 19626] [client 75.25.61.30:49782] PHP Notice:  Undefined property: MyAPI::$name in /var/www/html/trackmini/api/MyAPI.class.php on line 41
+[Tue Apr 28 01:41:48.656929 2015] [:error] [pid 19624] [client 75.25.61.30:49805] PHP Notice:  Undefined property: MyAPI::$name in /var/www/html/trackmini/api/MyAPI.class.php on line 41
+[Tue Apr 28 01:42:53.555736 2015] [mpm_prefork:notice] [pid 19619] AH00169: caught SIGTERM, shutting down
+[Tue Apr 28 01:42:54.608748 2015] [mpm_prefork:notice] [pid 19681] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.4 configured -- resuming normal operations
+[Tue Apr 28 01:42:54.608907 2015] [core:notice] [pid 19681] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 28 01:45:06.711829 2015] [:error] [pid 19685] [client 75.25.61.30:49874] PHP Notice:  Undefined property: MyAPI::$name in /var/www/html/trackmini/api/MyAPI.class.php on line 41
+[Tue Apr 28 01:45:09.396048 2015] [core:error] [pid 19688] [client 75.25.61.30:49878] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Apr 28 01:45:37.413155 2015] [core:error] [pid 19687] [client 75.25.61.30:49886] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Apr 28 01:48:12.556641 2015] [core:error] [pid 19689] [client 75.25.61.30:49906] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Apr 28 01:48:15.068481 2015] [core:error] [pid 19694] [client 75.25.61.30:49914] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Apr 28 01:48:15.272515 2015] [core:error] [pid 19686] [client 75.25.61.30:49915] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Apr 28 01:48:15.873588 2015] [core:error] [pid 19688] [client 75.25.61.30:49916] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Apr 28 01:48:22.124727 2015] [core:error] [pid 19685] [client 75.25.61.30:49927] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Tue Apr 28 06:07:22.071569 2015] [:error] [pid 19756] [client 75.25.61.30:51187] PHP Parse error:  syntax error, unexpected 'switch' (T_SWITCH) in /var/www/html/trackmini/api/MyAPI.class.php on line 70
+[Tue Apr 28 06:07:26.050668 2015] [:error] [pid 19687] [client 75.25.61.30:51188] script '/var/www/html/trackmini/phpinfo.php' not found or unable to stat
+[Tue Apr 28 06:07:34.689861 2015] [:error] [pid 19694] [client 75.25.61.30:51197] PHP Parse error:  syntax error, unexpected 'switch' (T_SWITCH) in /var/www/html/trackmini/api/MyAPI.class.php on line 70
+[Tue Apr 28 06:07:34.912294 2015] [:error] [pid 19686] [client 75.25.61.30:51199] PHP Parse error:  syntax error, unexpected 'switch' (T_SWITCH) in /var/www/html/trackmini/api/MyAPI.class.php on line 70
+[Tue Apr 28 06:07:46.450823 2015] [:error] [pid 19688] [client 75.25.61.30:51206] PHP Parse error:  syntax error, unexpected 'switch' (T_SWITCH) in /var/www/html/trackmini/api/MyAPI.class.php on line 70
