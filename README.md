@@ -1,3 +1,11 @@
+# Database Query REST API
+
+**Updated README:** 1/28/18
+
+At one point in time I set out to create a very generalized personal data tracking system, mostly for my own uses. I wanted to be able to track anything - calories, exercise, money, etc. This project, called Trackula and then Trackmini, turned out to be overly ambitious and didn't make it very far... There's a surprising amount of design and docs in there tlaking about the project but most can be safely ignored (really not missing much).
+
+I uploaded this because the interesting part of this project (err the only part) is the **Generic PHP driven REST API** that can used to perform CRUD operations on any database table. Could come in handy some day down the road for a simple shared data store.
+
 # Trackmini
 
 Trackmini was the lightweight brother of the Trackula project. The goal of this project was to create a platform in which a user can gather data and track anything and everything about their lives. **Trackmini**, however, can only tracks a subset of ... everything.
